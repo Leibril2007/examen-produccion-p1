@@ -1,0 +1,15 @@
+.p-bloques{
+    grid-row: 2/3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 1rem 1.2rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    align-self: center;
+}
+
+.eliminar{
+    display: none;
+}
